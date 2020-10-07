@@ -22,4 +22,4 @@ All images are placed in the Images folder and should be referenced to by Images
 The Appendicies are in the Appendicies and are identical to Parts - I just wanted them seperate.
 
 
-Have fun and feel free to write to me a bitch about the setup.
+Have fun and feel free to write to me and bitch about the setup.
