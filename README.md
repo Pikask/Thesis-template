@@ -15,6 +15,7 @@ FrontBackMatter/Bibliography.bib is where the bibliography is and follows bibtex
 ListOfFigures and ListOfTables will automatically be updated with hyperlinks from the list to the page of the figure.
 
 Parts is the first devision of content. I've chosen to split parts into files to make everything more managable. The Parts themselves are in the Parts folder. Within each part one can specify chapters, sections, subsections and so on.
+Any number of Parts can be created. Notice that the Part title name printed in the Thesis is defined in main.tex.
 
 All images are placed in the Images folder and should be referenced to by Images/part1/subfolder/image.png. It makes it much more mangable to create subfolders at each part (and perhaps chapter) for your images
 
