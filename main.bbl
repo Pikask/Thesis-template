@@ -1,0 +1,117 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{Egam_XAODderv}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CTA}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={The\bibnamedelima ATLAS},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTA1}
+    \strng{fullhash}{CTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{note}{Requires ATLAS login}
+    \field{title}{Twiki: egamma xAOD derivations}
+    \verb{url}
+    \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/EGammaxAODDer
+    \verb ivations
+    \endverb
+  \endentry
+
+  \entry{Purcell:2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PA}{%
+         family={Purcell},
+         familyi={P\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {CERN Publications}%
+    }
+    \strng{namehash}{PA1}
+    \strng{fullhash}{PA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{{G}o {O}n a {P}article {Q}uest at the {F}irst {CERN}
+  {W}ebfest}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1473657
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{schwartz:2006}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SMD}{%
+         family={Schwartz},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{SMD1}
+    \strng{fullhash}{SMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{edition}{1st Edition}
+    \field{isbn}{978-1-107-03473-0}
+    \field{title}{Quantum Field Theory and the Standard Model}
+    \field{year}{2013}
+  \endentry
+
+  \entry{srednicki:2006}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Srednicki},
+         familyi={S\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{edition}{1st Edition}
+    \field{isbn}{978-0-521-86449-7}
+    \field{title}{Quantum Field Theory}
+    \field{year}{2006}
+  \endentry
+\enddatalist
+\endinput

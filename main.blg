@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: FrontBackMatter/Titleback.aux
+A level-1 auxiliary file: FrontBackMatter/Abstract.aux
+A level-1 auxiliary file: FrontBackMatter/Acknowledgments.aux
+A level-1 auxiliary file: FrontBackMatter/Introduction.aux
+A level-1 auxiliary file: FrontBackMatter/Contents.aux
+A level-1 auxiliary file: Parts/part1-LotR.aux
+A level-1 auxiliary file: Parts/part2-hobbits.aux
+A level-1 auxiliary file: Appendicies/appendixA.aux
+A level-1 auxiliary file: Appendicies/appendixB.aux
+A level-1 auxiliary file: Appendicies/appendixC.aux
+A level-1 auxiliary file: FrontBackMatter/Acronyms.aux
+A level-1 auxiliary file: FrontBackMatter/Listoffigures.aux
+A level-1 auxiliary file: FrontBackMatter/Listoftables.aux
+A level-1 auxiliary file: FrontBackMatter/Bibliography.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: Bibliography.bib
+Biblatex version: 3.8
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 5 entries,
+            6268 wiz_defined-function locations,
+            1217 strings with 9491 characters,
+and the built_in function-call counts, 18589 in all, are:
+= -- 1164
+> -- 436
+< -- 170
++ -- 330
+- -- 124
+* -- 1103
+:= -- 1582
+add.period$ -- 0
+call.type$ -- 5
+change.case$ -- 4
+chr.to.int$ -- 30
+cite$ -- 8
+duplicate$ -- 1888
+empty$ -- 1842
+format.name$ -- 191
+if$ -- 4114
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 0
+newline$ -- 116
+num.names$ -- 242
+pop$ -- 1343
+preamble$ -- 1
+purify$ -- 115
+quote$ -- 0
+skip$ -- 975
+stack$ -- 0
+substring$ -- 1661
+swap$ -- 551
+text.length$ -- 114
+text.prefix$ -- 4
+top$ -- 1
+type$ -- 158
+warning$ -- 0
+while$ -- 194
+width$ -- 0
+write$ -- 112

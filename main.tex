@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.4 (1/1/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de) with commenting modifications by:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% GNU General Public License (v2)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+		twoside,openright,titlepage,numbers=noenddot,headinclude,justified,%1headlines,
+	 	footinclude=true,cleardoublepage=empty,
+		dottedtoc, % Make page numbers in the table of contents flushed right with dots leading to them
+    BCOR=10mm,paper=a4,fontsize=11pt, % Binding correction, paper type and font size
+    % footheight=52pt,
+    ngerman,american, % Languages, change this to your language(s)
+		]{scrreprt} %tufte-book  scrreprt
+
+% Includes the file which contains all the document configurations and packages - make sure to edit this file
+\input{classicthesis-config}
+
+\addbibresource{Bibliography.bib} % The file housing your bibliography
+%\addbibresource[label=ownpubs]{Self_Publications.bib} % Uncomment for optional self-publications
+  
+%\hyphenation{Put special hyphenation here}
+
+% Being centering
+\def \ColourPDF {FrontBackMatter/ku-farve.pdf}
+\def \TitlePDF   {FrontBackMatter/nat-en.pdf}
+\title{
+  % \vspace{-1cm}
+  \normalsize{A thesis presented to the Faculty of Science} \\
+  \large{Master of Science in physics at the Niels Bohr Institute} \\
+  \vspace{1cm}
+  \centering
+  \Huge{\vspace{2cm} \myTitle}\\ %Ajdust vspace according to title length.
+  % \huge{\mySubtitle}\\
+}
+\author{
+  \huge{\myName} \\
+  \normalsize{\texttt{\myMail}}
+  \vspace{7cm} \\
+  \large{\mySupervisor} \\
+  \normalsize{\texttt{\mySupervisorMail}} \\
+  \vspace{1cm} \\
+}
+\date{\myTime}
+ 
+\begin{document}
+\addtolength{\topmargin}{12pt}
+
+\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{american} % Select your default language - e.g. american or ngerman
+
+%\renewcommand*{\bibname}{new name} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\AddToShipoutPicture*{\put(0,0){\includegraphics*[viewport=0 0 700 600]{\ColourPDF}}}
+\AddToShipoutPicture*{\put(0,602){\includegraphics*[viewport=0 600 700 1600]{\ColourPDF}}}
+\AddToShipoutPicture*{\put(0,0){\includegraphics*{\TitlePDF}}}
+
+\maketitle
+
+\include{FrontBackMatter/Titleback} % Back of the title page
+
+% \cleardoublepage\include{FrontBackMatter/Dedication} % Uncomment and create a Dedication.tex to include a dedication
+
+%\cleardoublepage\include{FrontBackMatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
+
+\cleardoublepage\include{FrontBackMatter/Abstract} % Abstract page
+
+% \cleardoublepage\include{FrontBackMatter/Publications} % Publications from the thesis page
+
+\cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
+
+\cleardoublepage\include{FrontBackMatter/Introduction} % Publications from the thesis page
+
+\pagestyle{scrheadings} % Show chapter titles as headings
+
+\cleardoublepage\include{FrontBackMatter/Contents} % Contents, list of figures/tables/listings and acronyms
+
+\cleardoublepage
+
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+%\setcounter{page}{90} % Uncomment to manually start the page counter at an arbitrary value (for example if you wish to count the pre-content pages in the page count)
+
+\cleardoublepage % Avoids problems with pdfbookmark
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\part{The Lord of the Rings}
+
+\include{Parts/part1-LotR}
+
+\cleardoublepage
+
+%------------------------------------------------
+
+\part{The Hobbit} 
+
+\include{Parts/part2-hobbits}
+
+\cleardoublepage
+
+%------------------------------------------------
+
+% \part{Name of chapter in document} 
+
+% \include{name of chapter file}
+
+% \cleardoublepage % Empty page before the start of the next part
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix
+
+\part{Appendices} % Appendicies
+
+%% You can add more appendicies
+\include{Appendicies/appendixA} % Appendix A
+\include{Appendicies/appendixB} % Appendix B
+\include{Appendicies/appendixC} % Appendix C
+
+%----------------------------------------------------------------------------------------
+%	POST-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\include{FrontBackMatter/Acronyms} % Acronyms
+
+\include{FrontBackMatter/Listoffigures} % List of figures - updates automatically
+
+\include{FrontBackMatter/Listoftables} % List of Tables - updates automatically
+
+\include{FrontBackMatter/Bibliography} % Bibliography
+
+
+\cleardoublepage
+%----------------------------------------------------------------------------------------
+
+\end{document}
